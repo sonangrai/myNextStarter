@@ -11,7 +11,11 @@ import Meta from "../components/seo/Meta";
 export default function Home() {
   return (
     <>
-      <Meta title="UCC" description="Share Music" image="" />
+      <Meta
+        title="My Next Starter"
+        description="Next Starter by Sonahang"
+        image=""
+      />
       <Header />
       <NextImage height="200px" />
       <Footer />
