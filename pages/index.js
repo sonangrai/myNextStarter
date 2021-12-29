@@ -17,7 +17,7 @@ export default function Home() {
         image=""
       />
       <Header />
-      <NextImage height="200px" />
+      <NextImage height="50px" layout="contain" />
       <Footer />
     </>
   );

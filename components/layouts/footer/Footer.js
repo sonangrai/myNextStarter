@@ -3,7 +3,7 @@ import { FootStyle } from "./styled/FootStyle.styled";
 const Footer = () => {
   return (
     <>
-      <FootStyle>Footer</FootStyle>
+      <FootStyle>I am Footer</FootStyle>
     </>
   );
 };

@@ -15,10 +15,7 @@ const NextImage = ({ height, src, alt, layout }) => {
   return (
     <ImageWrapper height={height} layout={layout || "cover"}>
       <Image
-        src={
-          src ||
-          "https://res.cloudinary.com/urban-culture-channel/image/upload/v1639063803/sample.jpg"
-        }
+        src={src || "/favicon.ico"}
         layout="fill"
         alt={alt || "Alt Text"}
       />
